@@ -1,0 +1,34 @@
+.nav_active {
+    color: white;
+    background-color: var(--primary-color);
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.nav_element:hover {
+    color: white;
+    background-color: #c00000;
+    font-weight: 200;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.nav_element {
+    transition: all 0.5s ease; /* Ajoute une transition fluide sur tous les changements */
+}
+/* Applique un défilement invisible pour la section */
+.fixed {
+    overflow-y: auto; /* Permet le défilement vertical */
+    -webkit-overflow-scrolling: touch; /* Améliore le défilement sur les appareils tactiles */
+}
+
+.fixed::-webkit-scrollbar {
+    display: none; /* Cache la barre de défilement sur les navigateurs Webkit (Chrome, Safari, etc.) */
+}
+
+.fixed {
+    scrollbar-width: none; /* Cache la barre de défilement sur Firefox */
+}

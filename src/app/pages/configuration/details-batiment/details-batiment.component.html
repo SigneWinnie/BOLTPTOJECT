@@ -1,0 +1,97 @@
+ 
+<div class="max-w-full flex flex-col lg:flex-row gap-6 mx-auto p-6 bg-white rounded-lg shadow-lg mt-3 mr-5 h-10  2xl:h-130 lg:h-90   md:h-180 sm:h-20">
+    <!-- Image -->
+  <div class="flex-shrink-0 w-full lg:w-1/2">
+    <img
+      src="https://picsum.photos/800/500"
+      alt="Cité Shekina"
+      class="rounded-xl w-full h-full object-cover"
+    />
+  </div>
+
+  <!-- Détails -->
+  <div class="flex flex-col justify-between w-full lg:w-1/2   relative">
+    <!-- Titre + Note -->
+    <div class="flex items-start justify-between">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900">Résidence des Péres</h2>
+      </div>
+      <div class="flex items-center bg-white border rounded-xl px-3 py-1 shadow-sm">
+        <span class="text-2xl font-semibold text-[#009688]"> 4,5</span>
+        <i class="fas fa-star text-yellow-400 ml-1 text-xl"></i>
+      </div>
+    </div>
+
+    <div class="text-gray-500 2xl:text-2xl" id="comentaire">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore rem perspiciatis corporis at quo amet, cumque maiores deserunt dolor optio sed consectetur. Animi dicta quia placeat ab et impedit quasi?
+        Lorem ipsum dolor sit amepraesentium dignissimos neque itaque dolore qui voluptates nesciunt
+    </div>
+
+ 
+        
+    <!-- Infos principales -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6 text-gray-800">
+      <!-- Nombre de chambres -->
+      <div>
+        <p class="text-sm font-semibold text-gray-500 border-b pb-2">Nombre d'étage</p>
+        <p class="text-xl font-bold mt-2">25 Etages</p>
+      </div>
+
+      <!-- Prix d'une chambre -->
+      <div>
+        <p class="text-sm font-semibold text-gray-500 border-b pb-2">Nombre de pieces</p>
+        <p class="text-xl font-bold mt-2">250 Pieces</p>
+      </div>
+
+      <!-- Chambre la plus chère -->
+      <div>
+        <p class="text-sm font-semibold text-gray-500 border-b pb-2">Nombre d'équipement d'éffectueux</p>
+        <p class="text-xl font-bold mt-2">32 Equipements</p>
+      </div>
+
+      <!-- Chambre la moins chère -->
+      <div>
+        <p class="text-sm font-semibold text-gray-500 border-b pb-2">Pourcentage de dégats</p>
+        <p class="text-xl font-bold mt-2">80%</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white mt-3 mr-5 rounded-xl shadow p-4 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+  <!-- Gauche : Label + Select en ligne dès lg -->
+  <div class="w-full lg:w-auto">
+    <div class="flex flex-col lg:flex-row lg:items-center gap-2">
+      <label for="etage" class="text-sm font-medium text-gray-600 whitespace-nowrap">
+        Choisir un étage
+      </label>
+      <select id="etage"
+              class="w-full lg:w-56 px-3 py-2 border border-gray-300 rounded-lg
+                     focus:outline-none focus:ring-2 focus:ring-[#c00000]/30 focus:border-[#c00000]">
+        <option value="1">Étage 1</option>
+        <option value="2">Étage 2</option>
+        <option value="3">Étage 3</option>
+        <option value="4">Étage 4</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Droite : Infos -->
+  <div class="w-full lg:w-auto lg:ml-auto">
+    <div class="flex flex-wrap items-center gap-3 justify-start lg:justify-end">
+      <div class="flex items-center gap-2 bg-gray-100 rounded-lg px-3 py-2">
+        <i class="fas fa-layer-group text-[#c00000]"></i>
+        <span class="text-sm text-gray-500">Étages</span>
+        <span class="font-semibold text-gray-900"> 4</span>
+      </div>
+      <div class="flex items-center gap-2 bg-gray-100 rounded-lg px-3 py-2">
+        <i class="fas fa-door-open text-[#c00000]"></i>
+        <span class="text-sm text-gray-500">Pièces</span>
+        <span class="font-semibold text-gray-900"> 32 </span>
+      </div>
+    </div>
+  </div>
+</div>
+<app-etages> </app-etages>
+
+

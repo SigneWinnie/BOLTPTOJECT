@@ -1,0 +1,33 @@
+<div class="flex flex-wrap gap-2 justify-start bg-white p-3 rounded-lg shadow-md mr-5">
+  <!-- Lien Administrateur -->
+  <a 
+    href="/list/Administrateur"
+    class="py-2 px-6 text-gray-700 hover:text-red-500 hover:border-b-2 hover:border-red-500 transition-all duration-300 pt-4"
+    [ngClass]="{'text-red-500 font-semibold border-b-2 border-red-500': isActiveLink('administrateur')}">
+    Administrateur
+  </a>
+
+  <!-- Lien Resident -->
+  <a 
+    href="/list/Resident"
+    class="py-2 px-6 text-gray-700 hover:text-red-500 hover:border-b-2 hover:border-red-500 transition-all duration-300 pt-4"
+    [ngClass]="{'text-red-500 font-semibold border-b-2 border-red-500': isActiveLink('resident')}">
+    Resident
+  </a>
+
+  <!-- Lien Agent -->
+  <a 
+    href="/list/Agent"
+    class="py-2 px-6 text-gray-700 hover:text-red-500 hover:border-b-2 hover:border-red-500 transition-all duration-300 pt-4"
+    [ngClass]="{'text-red-500 font-semibold border-b-2 border-red-500': isActiveLink('agent')}">
+    Agent
+  </a>
+
+  <!-- Lien Superviseur -->
+  <a 
+    href="/list/Superviseur"
+    class="py-2 px-6 text-gray-700 hover:text-red-500 hover:border-b-2 hover:border-red-500 transition-all duration-300 pt-4"
+    [ngClass]="{'text-red-500 font-semibold border-b-2 border-red-500': isActiveLink('superviseur')}">
+    Superviseur
+  </a>
+</div>
