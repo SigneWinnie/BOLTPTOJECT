@@ -6,7 +6,7 @@ stages:
 variables:
   IMAGE_NAME: $CI_REGISTRY_IMAGE:latest
 
-# Étape 1 : Build de l'imag Docker
+# Étape 1 : Build de l'image Docker
 build:
   stage: build
   image: docker:27.0.3
