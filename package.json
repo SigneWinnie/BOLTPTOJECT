@@ -23,6 +23,7 @@
     "@sweetalert2/ngx-sweetalert2": "^14.0.1",
     "@tailwindcss/postcss": "^4.1.16",
     "@tailwindplus/elements": "^1.0.18",
+    "lightningcss": "^1.30.2",
     "ngx-toastr": "^19.1.0",
     "postcss": "^8.5.6",
     "primeicons": "^7.0.0",
