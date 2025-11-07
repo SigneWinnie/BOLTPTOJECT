@@ -22,7 +22,7 @@ build:
   only:
     - main
 
-# Étape 2 : Push de l'image vers GitLab Registry
+# Étape 2 : Push de l'image vers GitLab Registry #
 push:
   stage: push
   image: docker:27.0.3
